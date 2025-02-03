@@ -1,6 +1,6 @@
 {
-    "name": "random_series",
-    "short_name": "random_series",
+    "name": "WatchWhat",
+    "short_name": "WatchWhat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
