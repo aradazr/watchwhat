@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /watchwhat/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCont %{REQUEST_FILENAME} !-d
+  RewriteCont %{REQUEST_FILENAME} !-l
+  RewriteRule . /watchwhat/index.html [L]
+</IfModule>
